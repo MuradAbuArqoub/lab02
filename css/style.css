@@ -1,3 +1,4 @@
+
 html{margin-top: -23px;}
 h1{
     
@@ -27,12 +28,10 @@ h1{
   
   
   footer{
-    
     height: 100px;
     padding: 20px;
     padding-left: 100px;
     background-color: SlateGray 
-    
   }
   body{
       
@@ -41,6 +40,13 @@ h1{
     background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm283-nunny-029-f.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=813f794e8cbc162ee7175182cad08e53);
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+}
+p.center {
+  text-align: center;
+  color: red;
+}
+
+p.left {
+  text-align: left;
+  color: red;
 }
