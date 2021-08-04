@@ -99,28 +99,31 @@ for (let attempt = 0; attempt < numberOfTries; attempt++) {
 // 3- it toke me some time by some time i mean a whole day because am still not used to JS or HTML
 
 alert("now here is another guessing game")
-let numberOfTriesSecond = 6;
 let favFood = ['sushi', 'pizza', 'smoked stake'];
+let q7;
+let correct = false;
 
-for (let i = 0; i < favFood.length; i++) {
-    let answer2 = prompt("guess at least on of my favorit dishes\nshawerma, burger, pizza, dawali, sushi, smoked stake, salad, bbq, fired chicken, falafil");
-    if (answer2 === favFood[i]) {
-        console.log("good job");
-        alert("well done my favorit dishes are " + favFood)
-        break;
+for (let i = 1; i <= 6; i++) {
+    q7 = prompt("guess at least on of my favorit dishes\nshawerma, burger, pizza, dawali, sushi, smoked stake, salad, bbq, fired chicken, falafil");
+    
+    for(let j = 0; j < favFood.length; j++){
+
+        if (q7 === favFood[j]) {
+            console.log("good job");
+            alert("well done my favorit dishes are " + favFood)
+            correct = true;
+            break;
+        }
     }
-    else {
-        console.log("nope");
-        alert("nah not really")
+        if(correct){
+            break;
+        }
+    
     }
 
-    if (counter == numberOfTriesSecond) {
-        console.log("sorry you used all your chances");
-        alert("sorry you used all your chances")
-        alert("my favorit dishes are " + favFood)
-        break;
-    }
-}
+    
+    
+
 
 
 
