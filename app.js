@@ -13,6 +13,7 @@ questions2();
 questions3();
 questions4();
 questions5();
+questions6();
 
 function questions1(){
 let q1 = prompt("Do you think my name starts with A").toLowerCase();
@@ -70,10 +71,8 @@ if (q5 == "yes") {
     console.log("nope");
 }
 }
-
-
+function questions6(){
 alert("Now here is another type of guessing game")
-
 alert("try to guess the right number you got 4 shots")
 let userNumber = 10;
 let counter = 0;
@@ -104,7 +103,7 @@ for (let attempt = 0; attempt < numberOfTries; attempt++) {
         break;
     }
 }
-
+}
 // 1- all good
 // 2- iv had some questions but i found everything on internet
 // 3- it toke me some time by some time i mean a whole day because am still not used to JS or HTML
