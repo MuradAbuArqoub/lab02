@@ -9,6 +9,7 @@ alert("yes or no responses will only be accepted")
 let points = 0;
 
 questions1();
+questions2();
 
 function questions1(){
 let q1 = prompt("Do you think my name starts with A").toLowerCase();
@@ -22,7 +23,7 @@ if (q1 == "yes") {
     points++;
 }
 }
-
+function questions2(){
 let q2 = prompt("Am i a cat person in ur opinion :3?").toLowerCase();
 if (q2 == "yes") {
     alert("hehe");
@@ -32,7 +33,7 @@ if (q2 == "yes") {
     alert("noh");
     console.log("False");
 }
-
+}
 let q3 = prompt("Do you think am older than 21?").toLowerCase();
 if (q3 == "yes") {
     alert("nope");
