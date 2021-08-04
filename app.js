@@ -8,7 +8,9 @@ alert("anyway " + name + " lets play a guessing game shall we?")
 alert("yes or no responses will only be accepted")
 let points = 0;
 
+questions1();
 
+function questions1(){
 let q1 = prompt("Do you think my name starts with A").toLowerCase();
 if (q1 == "yes") {
     alert("Nope");
@@ -18,6 +20,7 @@ if (q1 == "yes") {
     alert("ayyy");
     console.log("True");
     points++;
+}
 }
 
 let q2 = prompt("Am i a cat person in ur opinion :3?").toLowerCase();
