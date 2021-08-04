@@ -14,6 +14,7 @@ questions3();
 questions4();
 questions5();
 questions6();
+questions7();
 
 function questions1(){
 let q1 = prompt("Do you think my name starts with A").toLowerCase();
@@ -107,7 +108,7 @@ for (let attempt = 0; attempt < numberOfTries; attempt++) {
 // 1- all good
 // 2- iv had some questions but i found everything on internet
 // 3- it toke me some time by some time i mean a whole day because am still not used to JS or HTML
-
+function questions7(){
 alert("now here is another guessing game")
 let favFood = ['sushi', 'pizza', 'smoked stake'];
 let q7;
@@ -130,8 +131,10 @@ for (let i = 1; i <= 6; i++) {
             break;
         }
     
-    }
+}
+}
     alert(name + ", your total score is " + points + "/7");
+
 // 1- all good
 // 2- iv had some questions but i found everything on internet
 // 3- it toke me some time by some time i mean a whole day because am still not used to JS or HTML
