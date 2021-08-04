@@ -10,6 +10,7 @@ let points = 0;
 
 questions1();
 questions2();
+questions3();
 
 function questions1(){
 let q1 = prompt("Do you think my name starts with A").toLowerCase();
@@ -34,6 +35,7 @@ if (q2 == "yes") {
     console.log("False");
 }
 }
+function questions3(){
 let q3 = prompt("Do you think am older than 21?").toLowerCase();
 if (q3 == "yes") {
     alert("nope");
@@ -43,7 +45,7 @@ if (q3 == "yes") {
     alert("yes");
     console.log("yes");
 }
-
+}
 let q4 = prompt("Do you think i would pick coffee over tea?").toLowerCase();
 if (q4 == "yes") {
     alert("naaaah");
