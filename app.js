@@ -12,6 +12,7 @@ questions1();
 questions2();
 questions3();
 questions4();
+questions5();
 
 function questions1(){
 let q1 = prompt("Do you think my name starts with A").toLowerCase();
@@ -58,6 +59,7 @@ if (q4 == "yes") {
     console.log("yes");
 }
 }
+function questions5(){
 let q5 = prompt("Do you think am taler than 185 cm?").toLowerCase();
 if (q5 == "yes") {
     alert("yes i am a tall boi");
@@ -67,7 +69,7 @@ if (q5 == "yes") {
     alert("guess again tall gang skrt skrt");
     console.log("nope");
 }
-
+}
 
 
 alert("Now here is another type of guessing game")
