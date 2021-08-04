@@ -11,6 +11,7 @@ let points = 0;
 questions1();
 questions2();
 questions3();
+questions4();
 
 function questions1(){
 let q1 = prompt("Do you think my name starts with A").toLowerCase();
@@ -46,6 +47,7 @@ if (q3 == "yes") {
     console.log("yes");
 }
 }
+function questions4(){
 let q4 = prompt("Do you think i would pick coffee over tea?").toLowerCase();
 if (q4 == "yes") {
     alert("naaaah");
@@ -55,7 +57,7 @@ if (q4 == "yes") {
     alert("hell ya boi");
     console.log("yes");
 }
-
+}
 let q5 = prompt("Do you think am taler than 185 cm?").toLowerCase();
 if (q5 == "yes") {
     alert("yes i am a tall boi");
