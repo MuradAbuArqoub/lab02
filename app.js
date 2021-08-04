@@ -60,7 +60,7 @@ if (q5 == "yes") {
     console.log("nope");
 }
 
-alert(name + ", your total score is " + points);
+
 
 alert("Now here is another type of guessing game")
 
@@ -84,6 +84,7 @@ for (let attempt = 0; attempt < numberOfTries; attempt++) {
         alert("well done")
         alert("the random number was " + randomNumber)
         alert("welp good job " + name)
+        points++;
         break;
     }
     if (attempt == 3) {
@@ -112,6 +113,7 @@ for (let i = 1; i <= 6; i++) {
             console.log("good job");
             alert("well done my favorit dishes are " + favFood)
             correct = true;
+            points++;
             break;
         }
     }
@@ -120,8 +122,10 @@ for (let i = 1; i <= 6; i++) {
         }
     
     }
-
-    
+    alert(name + ", your total score is " + points);
+// 1- all good
+// 2- iv had some questions but i found everything on internet
+// 3- it toke me some time by some time i mean a whole day because am still not used to JS or HTML
     
 
 
