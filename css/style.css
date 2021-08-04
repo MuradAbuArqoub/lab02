@@ -1,5 +1,6 @@
 
-html{margin-top: -23px;}
+html{margin-top: -23px;
+  text-align: center;}
 h1{
     
     background-image:url(https://i.pinimg.com/564x/b1/3b/0b/b13b0bad0de7411a1803898316c1056d.jpg);
@@ -49,4 +50,10 @@ p.center {
 p.left {
   text-align: left;
   color: red;
+}
+
+video{
+  display: inline-block;
+  size: 500px;
+  margin: auto;
 }
