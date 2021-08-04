@@ -32,12 +32,12 @@ if (q2 == "yes") {
 
 let q3 = prompt("Do you think am older than 21?").toLowerCase();
 if (q3 == "yes") {
-    alert("yup");
-    console.log("True");
+    alert("nope");
+    console.log("nope");
     points++;
 } else if (q3 == "no") {
-    alert("nope");
-    console.log("False");
+    alert("yes");
+    console.log("yes");
 }
 
 let q4 = prompt("Do you think i would pick coffee over tea?").toLowerCase();
@@ -113,7 +113,7 @@ for (let i = 1; i <= 6; i++) {
             console.log("good job");
             alert("well done my favorit dishes are " + favFood)
             correct = true;
-            points++;
+            points++; 
             break;
         }
     }
@@ -122,7 +122,7 @@ for (let i = 1; i <= 6; i++) {
         }
     
     }
-    alert(name + ", your total score is " + points);
+    alert(name + ", your total score is " + points + "/7");
 // 1- all good
 // 2- iv had some questions but i found everything on internet
 // 3- it toke me some time by some time i mean a whole day because am still not used to JS or HTML
