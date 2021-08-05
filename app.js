@@ -8,7 +8,15 @@ alert("anyway " + name + " lets play a guessing game shall we?")
 alert("yes or no responses will only be accepted")
 let points = 0;
 
+questions1();
+questions2();
+questions3();
+questions4();
+questions5();
+questions6();
+questions7();
 
+function questions1(){
 let q1 = prompt("Do you think my name starts with A").toLowerCase();
 if (q1 == "yes") {
     alert("Nope");
@@ -19,7 +27,8 @@ if (q1 == "yes") {
     console.log("True");
     points++;
 }
-
+}
+function questions2(){
 let q2 = prompt("Am i a cat person in ur opinion :3?").toLowerCase();
 if (q2 == "yes") {
     alert("hehe");
@@ -29,7 +38,8 @@ if (q2 == "yes") {
     alert("noh");
     console.log("False");
 }
-
+}
+function questions3(){
 let q3 = prompt("Do you think am older than 21?").toLowerCase();
 if (q3 == "yes") {
     alert("nope");
@@ -39,7 +49,8 @@ if (q3 == "yes") {
     alert("yes");
     console.log("yes");
 }
-
+}
+function questions4(){
 let q4 = prompt("Do you think i would pick coffee over tea?").toLowerCase();
 if (q4 == "yes") {
     alert("naaaah");
@@ -49,7 +60,8 @@ if (q4 == "yes") {
     alert("hell ya boi");
     console.log("yes");
 }
-
+}
+function questions5(){
 let q5 = prompt("Do you think am taler than 185 cm?").toLowerCase();
 if (q5 == "yes") {
     alert("yes i am a tall boi");
@@ -59,11 +71,9 @@ if (q5 == "yes") {
     alert("guess again tall gang skrt skrt");
     console.log("nope");
 }
-
-
-
+}
+function questions6(){
 alert("Now here is another type of guessing game")
-
 alert("try to guess the right number you got 4 shots")
 let userNumber = 10;
 let counter = 0;
@@ -94,11 +104,11 @@ for (let attempt = 0; attempt < numberOfTries; attempt++) {
         break;
     }
 }
-
+}
 // 1- all good
 // 2- iv had some questions but i found everything on internet
 // 3- it toke me some time by some time i mean a whole day because am still not used to JS or HTML
-
+function questions7(){
 alert("now here is another guessing game")
 let favFood = ['sushi', 'pizza', 'smoked stake'];
 let q7;
@@ -121,8 +131,10 @@ for (let i = 1; i <= 6; i++) {
             break;
         }
     
-    }
+}
+}
     alert(name + ", your total score is " + points + "/7");
+
 // 1- all good
 // 2- iv had some questions but i found everything on internet
 // 3- it toke me some time by some time i mean a whole day because am still not used to JS or HTML
