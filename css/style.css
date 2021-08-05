@@ -1,16 +1,29 @@
 
-html{margin-top: -23px;}
+html{margin-top: -40px;}
+h3.groove {
+  font-family: 'Inter', sans-serif;
+  border-style: groove;
+  border-style: solid;
+  background-color: burlywood;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
 h1{
-    
+    font-family: 'Inter', sans-serif;
+    font-size: 250%;
+    position: relative;
     background-image:url(https://i.pinimg.com/564x/b1/3b/0b/b13b0bad0de7411a1803898316c1056d.jpg);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 55px;
     text-align: center;
     font-family:Serif;
     color:black;
-    
+    z-index: 10;
+}
 
-  }
   header{
       
     padding-top: 5px;
@@ -32,9 +45,11 @@ h1{
     padding: 20px;
     padding-left: 100px;
     background-color: SlateGray 
+    
   }
   body{
-      
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;  
     text-align: center;
     margin: auto;
     background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm283-nunny-029-f.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=813f794e8cbc162ee7175182cad08e53);
